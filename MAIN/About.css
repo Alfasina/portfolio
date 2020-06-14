@@ -1,0 +1,160 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #c1dd80;
+}
+
+/*--- navigation bar ---*/
+.description{
+	background-color: #fff;
+}
+.navbar {
+	background: #6ab446;
+}
+.hide{
+	display: none
+	
+}
+.nav-link,
+.navbar-brand {
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+/*--- header ---*/
+
+.content {
+	background: white;
+    position: relative;
+    padding: 60px 0 30px;
+    margin-top: 3rem;
+    margin-right: 5rems;
+}
+.table{ margin-top: 2em;}
+
+
+h3 {
+    color: #6ab446;
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+.description {
+	padding: 0 auto;
+
+}
+
+.description p {
+    margin: 0 2rem;
+	color: #000000;
+    font-size: 1rem;
+}
+
+.description table {
+    margin:0rem 3rem ;
+	color: #000000;
+    font-size: 1 rem;
+    padding: 3rem;
+}
+ .mem {
+     margin: 2px;
+ }
+
+
+/*--- feature section ---*/
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+
+.features .btn {
+	background-color: #589b37;
+	border: 1px solid #589b37;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.features .btn:hover {
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+/*--- footer ---*/
+
+.page-footer {
+	background-color: #6ab446;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+
+/*--- media queries ---*/
+
+@media (max-width: 575.98px) {
+
+	.description {
+		left: 0;
+		padding: 10px 0px 0px;
+		position: absolute;
+		top: 10%;
+		transform: none;
+		text-align: justify;
+	}
+	
+	.description h3 {
+		font-size: 2em;
+		padding: 2em 0 0 ;
+	
+	}
+	.description p {
+		font-size: 1.2rem;
+	}
+	
+	.features {
+		margin: 0;
+	}
+
+}
+.table{
+	margin: 0px;
+	padding: 0 4rem;
+}
